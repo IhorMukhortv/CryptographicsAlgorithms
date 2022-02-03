@@ -17,7 +17,7 @@ namespace CryptographicsAlgorithms.Actions
 			var hash = HashAlgorithms.GetSHA1Hash(text);
 
 			Console.WriteLine($"Hash data for {text} : ");
-			Console.WriteLine(text);
+			Console.WriteLine(hash);
 
 			return true;
 		}
